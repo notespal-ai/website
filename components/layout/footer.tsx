@@ -13,7 +13,7 @@ export default function Footer() {
             </h1>
           </Link>
           <ul className="mb-6 flex flex-wrap items-center text-primary opacity-60 sm:mb-0">
-            {navLinks.map((link) => (
+            {navLinks.map((link: any) => (
               <li key={link.route}>
                 <Link href={link.path} className="mr-4 hover:underline md:mr-6">
                   {link.route}

@@ -80,13 +80,13 @@ export default function Navbar() {
             >
               <ul className="flex flex-col items-center space-y-4 text-primary opacity-60 md:flex-row md:space-x-6 md:space-y-0">
                 {navLinks.map((link) => (
-                  <li key={link.route}>
+                  <li key={link!.route}>
                     <Link
                       className="flex items-center text-lg font-medium transition-colors hover:text-foreground/80 hover:underline sm:text-sm"
-                      href={link.path}
+                      href={link!.path}
                       onClick={handleClick}
                     >
-                      {link.route}
+                      {link!.route}
                     </Link>
                   </li>
                 ))}

@@ -3,6 +3,9 @@ import HeadingText from "@/components/heading-text"
 import { download } from "@/config/contents"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
 import { Icons } from "@/components/icons"
+import Link from "next/link"
+import { buttonVariants } from "@/components/ui/button"
+import { cn } from "@/lib/utils"
 
 export default function FeatureCards() {
   return (
@@ -20,14 +23,22 @@ export default function FeatureCards() {
             return (
               <Card
                 key={cards.text}
-                className="flex flex-grow flex-col items-center justify-between gap-4 p-8 dark:bg-secondary"
+                className="flex flex-grow flex-col items-center justify-between  p-8 dark:bg-secondary"
               >
                 <div className="flex">
                   <Icon className="h-[6rem] w-[6rem]" />
                 </div>
+                <CardTitle>{cards.text}</CardTitle>
                 <div className="space-y-2">
-                  <CardTitle>{cards.text}</CardTitle>
-                  <CardDescription>{cards.subtext}</CardDescription>
+                  <div className="my-4 space-x-4">
+                    <Link
+                      href={cards.link!}
+                      className={cn(buttonVariants({ size: "sm" }))}
+                    >
+                      Download for {cards.text}
+                    </Link>
+                    <CardDescription>{cards.subtext}</CardDescription>
+                  </div>
                 </div>
               </Card>
             )

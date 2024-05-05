@@ -16,7 +16,7 @@ export default function Features() {
         <p className="max-w-[85%] leading-normal text-muted-foreground sm:text-lg sm:leading-7">
           Unlock the potential of cutting-edge open-source models such as
           Llama3, Mistral, and Phi-3 with NotesPal. Access them for free and
-          revolutionize your writing and editing experience.
+          transform your content creation journey.
         </p>
       </div>
       <div className="mx-auto grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-2">

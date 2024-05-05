@@ -19,13 +19,15 @@ export const download: ContentSection = {
   content: [
     {
       text: `Windows`,
-      subtext: `Beautifully designed components`,
-      icon: "linux",
+      subtext: `Requires Windows 10 or later`,
+      icon: "windows",
+      link: "https://github.com/notespal-ai/website/releases/download/v1.0.0/NotesPal-1.0.0-win.exe",
     },
     {
-      text: `Mac`,
-      subtext: `Develop. Preview. Ship.`,
+      text: `MacOS`,
+      subtext: `Requires macOS 11 Big Sur or later`,
       icon: "mac",
+      link: "https://github.com/notespal-ai/website/releases/download/v1.0.0/NotesPal-1.0.0-mac.dmg",
     },
   ],
 }

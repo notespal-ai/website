@@ -20,7 +20,7 @@ export default function PrivacyPolicy() {
           names, addresses, email addresses, phone numbers. This Personal
           Information is obtained in many ways including correspondence, email,
           via our website notespal.ai, from cookies and from third parties e.g.
-          Google Analytics. We don’t guarantee website links or policy of
+          Google Analytics. We don&apos;t guarantee website links or policy of
           authorised third parties. We collect your Personal Information for the
           primary purpose of providing our services to you, providing
           information to our clients and marketing. We may also use your
@@ -33,8 +33,8 @@ export default function PrivacyPolicy() {
           to use it.
           <h4>Sensitive Information</h4>
           Sensitive information is defined in the Privacy Act to include
-          information or opinion about such things as an individual's racial or
-          ethnic origin, political opinions, membership of a political
+          information or opinion about such things as an individual&apos;s
+          racial or ethnic origin, political opinions, membership of a political
           association, religious or philosophical beliefs, membership of a trade
           union or other professional body, criminal record or health
           information. Sensitive information will be used by us only: + For the

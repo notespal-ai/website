@@ -6,6 +6,7 @@ import Navbar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
 import { ThemeProvider } from "@/components/theme-provider"
 import { settings } from "@/config/settings"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" })
 
@@ -88,6 +89,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <Footer />
           </ThemeProvider>
         )}
+        <Analytics />
       </body>
     </html>
   )

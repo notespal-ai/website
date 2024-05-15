@@ -5,7 +5,7 @@ import { SiteConfig, ContactConfig } from "@/types"
 -- Fill the details about your website
  ==================== */
 
-const baseUrl = "https://nextlanding.rdev.pro"
+const baseUrl = "https://notespal.ai"
 
 export const siteConfig: SiteConfig = {
   name: "NotesPal",

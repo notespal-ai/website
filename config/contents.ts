@@ -27,7 +27,7 @@ export const download: ContentSection = {
       text: `MacOS`,
       subtext: `Requires macOS 11 Big Sur or later`,
       icon: "mac",
-      link: "https://github.com/notespal-ai/website/releases/download/v1.0.0/NotesPal-1.0.0-mac.dmg",
+      link: "https://apps.apple.com/au/app/notespal-offline-ai-writer/id6502636242?mt=12",
     },
   ],
 }
